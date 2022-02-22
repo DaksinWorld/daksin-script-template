@@ -1,0 +1,29 @@
+{
+  "name": "daksin-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc app.ts && npm run watch",
+    "watch": "node app.js && ts-node res --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaksinWorld/daksin-script.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.18",
+    "bcryptjs": "^2.4.3",
+    "daksin-script": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2"
+  },
+  "bugs": {
+    "url": "https://github.com/DaksinWorld/daksin-script/issues"
+  },
+  "homepage": "https://github.com/DaksinWorld/daksin-script#readme"
+}
