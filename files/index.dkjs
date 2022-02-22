@@ -1,0 +1,8 @@
+import {counter} from './app.dkjs'
+
+func main() {
+    cl('1,2,3... TO THE MOON')
+    counter(5000)
+}
+
+main()
